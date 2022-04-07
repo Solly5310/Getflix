@@ -11,7 +11,7 @@ export default function Movies(props) {
     if (element) {
       element.remove();
     }
-    const url = 'http://www.omdbapi.com/?i=';
+    const url = 'https://www.omdbapi.com/?i=';
     const imdb = movieDetails.imdbID;
 
     const api = '&apikey=7342635e';

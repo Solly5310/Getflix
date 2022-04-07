@@ -17,7 +17,7 @@ export default function App() {
     {
     console.log(page)
     const apiKey = '&apikey=7342635e';
-    const url = 'http://www.omdbapi.com/?s=';
+    const url = 'https://www.omdbapi.com/?s=';
     const pageNumber = `&page=${page}`;
     const search = url + movieName + apiKey + pageNumber;
 
@@ -55,7 +55,7 @@ export default function App() {
     // sending a resopnse to our own apiKey
     event.preventDefault();
     const apiKey = '&apikey=7342635e';
-    const url = 'http://www.omdbapi.com/?s=';
+    const url = 'https://www.omdbapi.com/?s=';
     const search = url + movieName + apiKey;
     
     // once a response is received, we then save the data
